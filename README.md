@@ -1,16 +1,15 @@
-Behavior cloning data generated from CARLA's RoamingAgent on Town04
+Driving data generated using a RoamingAgent from [CARLA](http://carla.org/) for behavior cloning.
 
 ### Details
 
-We follow CARLA's Town04 figure-8 loop indefinitely ([example video](https://drive.google.com/a/berkeley.edu/file/d/15IsPqlN7dKKemcE8VbE_Afebe-xVcDRi/view?usp=sharing)).
-
-A bird's eye view of Town04 is:
+We follow CARLA's Town04 figure-8 loop indefinitely ([example video](https://drive.google.com/a/berkeley.edu/file/d/15IsPqlN7dKKemcE8VbE_Afebe-xVcDRi/view?usp=sharing)),
+shown from above here:
 <img src="carla-town04.png">
 
 ### Datasets
  - 10k PNG images 48x48 in lane 1: [download (33 MB)](https://drive.google.com/a/berkeley.edu/file/d/1YZ5JxpK-RGM0XlK1F8NJppL7tTurgf_g/view?usp=sharing)
 
-<img src="carla-town04-lane1-48x48.png" width="400">
+<img src="carla-town04-lane1-48x48.png" width="200">
 
 Each image has an associated action, embedded in the image's metadata:
 ```
