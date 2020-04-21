@@ -60,6 +60,8 @@ either from [here](https://github.com/carla-simulator/carla/releases) or here:
 https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.8.tar.gz
 https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/AdditionalMaps_0.9.8.tar.gz
 ```
+(Note the "AdditionalMaps" (i.e. Town06 and Town07) need to be *merged* into CARLA's existing directories. I.e. just  
+copy+paste in into the CARLA directory and Ubuntu should ask you if you want to "merge" them.)
 
 2. add to .bashrc
 ```
