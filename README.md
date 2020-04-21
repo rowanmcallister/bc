@@ -45,7 +45,7 @@ conda activate carla98
 bash CarlaUE4.sh -fps 20
 ```
 
-Then choose the CARLA town you wish to use, and execute:
+Then, in antoher terminal, choose the CARLA town you wish to use, and execute. Here's an example:
 ```
 conda activate carla98
 ./PythonAPI/util/config.py --map Town07 --delta-seconds 0.05
@@ -61,7 +61,7 @@ https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.8.tar.gz
 https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/AdditionalMaps_0.9.8.tar.gz
 ```
 
-2: add to .bashrc
+2. add to .bashrc
 ```
 export PYTHONPATH=$PYTHONPATH:/home/CARLA_0.9.8/PythonAPI
 export PYTHONPATH=$PYTHONPATH:/home/CARLA_0.9.8/PythonAPI/carla
